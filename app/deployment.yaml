@@ -5,7 +5,7 @@ metadata:
   labels:
     app: fastapi-app
 spec:
-  replicas: 5
+  replicas: 8
   selector:
     matchLabels:
       app: fastapi-app
